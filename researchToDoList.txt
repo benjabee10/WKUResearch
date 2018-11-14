@@ -1,0 +1,6 @@
+Current Research Task List
+
+-Try to find documentation about current regime by period
+-Request MarkovAutoregression in Quantopian
+-Develop MACD Model to decide current regime and make prediction based on autoregression
+-Test model with checking Period t summary and t-1 summary

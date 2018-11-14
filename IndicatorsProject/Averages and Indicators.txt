@@ -1,0 +1,37 @@
+
+Indicators
+
+#Bollinger Bands
+#Keltner Trading Bands
+#Absolute Price oscillator
+#MACD 
+#RSI 
+#Stochastic oscillator
+#Stochastic oscillator fast
+#Stochastic rsi
+#Ultimate oscillator
+#ADX (Average Directional Movement Index)
+
+
+Moving Averages
+
+Simple
+exponential
+Linear
+Weighted
+Double exponential
+Triple exponential
+Triangular
+Kaufman adaptive
+Mesa adaptive
+
+# list of values for the Moving Average Type:  
+#0: SMA (simple)  
+#1: EMA (exponential)  
+#2: WMA (weighted)  
+#3: DEMA (double exponential)  
+#4: TEMA (triple exponential)  
+#5: TRIMA (triangular)  
+#6: KAMA (Kaufman adaptive)  
+#7: MAMA (Mesa adaptive)  
+#8: T3 (triple exponential T3) 

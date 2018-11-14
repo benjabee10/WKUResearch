@@ -1,0 +1,25 @@
+Keltner Trading Band：
+    Typical Price = (high+low+close)/3
+    Average Price = 10-Day Simple Moving Average (10SMA) of Typical Price
+    Range = high - low
+    Average Range = 10-Day Simple Moving Average (10SMA) of Range
+	
+-------------------------------------------------------------------------------
+	
+	
+displace = 0;
+factor = 2;
+length = 10;
+price = (high+low+close)/3; note what about close?
+
+shift = factor * SMA(high - low, timeperiod=length); Note high/low are daily price
+
+average = SMA(price, timeperiod=length); Note p
+
+plot Avg = average[-displace];
+
+
+plot Upper_Band = average[-displace] + shift[-displace];
+
+
+plot Lower_Band = average[-displace] - shift[-displace];
